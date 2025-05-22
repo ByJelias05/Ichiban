@@ -43,6 +43,28 @@
     height: 20px;
     border: 1px solid gray;
     align-items: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.Box-Scroll img{
+    width: 16px;
+    animation: arrow 1s ease-out infinite;
+}
+
+@keyframes arrow {
+    0%{
+        transform: translateY(-100%);
+    }
+    50%{
+        transform: translateY(0%);
+        animation-play-state: paused;
+        
+    }
+    100%{
+        transform: translateY(100%);
+    }
 }
 
 .Menu-Body-Rigth{

@@ -1,5 +1,5 @@
 import { Home } from "../Views/Home";
-
+import "../Styles/Landing.css"
 
 export function Landing(){
     return(

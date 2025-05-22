@@ -16,11 +16,16 @@
     
     width: 100%;
 }
-
+ 
 .Body-Contenedor{
     position: absolute;
     bottom: 0;
     width: 100%;
     height:65vh;
     
+}
+
+.Contenedor-Image-Background{
+    width: 100%;
+    height: 100%;
 }

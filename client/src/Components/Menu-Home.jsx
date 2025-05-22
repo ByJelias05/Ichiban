@@ -1,5 +1,7 @@
 import "../Styles/Menu-Home.css"
 
+import arrow from "../Images/Arrow.png"
+
 export function Menu_Home(){
     return(
         <div className="Contendor-Menu-Body">
@@ -7,8 +9,10 @@ export function Menu_Home(){
             <div className="Menu-Body-Left">
                 
                 <div className="Line">
-                    <label htmlFor="">description</label>
-                    <label htmlFor="">mod.001</label>
+                    <div style={{width: "50%", display: "flex", justifyContent: "space-between"}}>
+                        <label htmlFor="">description</label>
+                        <label htmlFor="">mod.001</label>
+                    </div>
                 </div>
                 <div className="Line"></div>
                 <div className="Line"></div>
@@ -27,7 +31,7 @@ export function Menu_Home(){
                 <div className="Items">
                     <label htmlFor="">Scroll</label>
                     <div className="Box-Scroll">
-
+                        <img src={arrow} alt="" />
                     </div>
                     <label htmlFor="">For me</label>
                 </div>
@@ -35,8 +39,10 @@ export function Menu_Home(){
 
             <div className="Menu-Body-Rigth">
                 <div className="Line">
-                    <label htmlFor="">Browse</label>
-                    <label htmlFor="">list:full</label>
+                    <div style={{width: "50%", display: "flex", justifyContent: "space-between"}}>
+                        <label htmlFor="">Browse</label>
+                        <label htmlFor="">list:full</label>
+                    </div>
                 </div>
                 <div className="Line"></div>
                 <div className="Line"></div>
@@ -45,20 +51,30 @@ export function Menu_Home(){
                 <div className="Line"></div>
                 <div className="Line"></div>
                 <div className="Line">
-                    <label htmlFor="">001</label>
-                    <label htmlFor="">Unique design</label>
+                    <div style={{width: "50%", display: "flex", justifyContent: "space-between"}}>
+                        <label htmlFor="">001</label>
+                        <a href="">Unique design</a>
+                    </div>
                 </div>
                 <div className="Line">
-                    <label htmlFor="">002</label>
-                    <label htmlFor="">Key Features</label>
+                    <div style={{width: "50%", display: "flex", justifyContent: "space-between"}}>
+                        <label htmlFor="">002</label>
+                        <a href="">Key Features</a>
+                    </div>
                 </div>
                 <div className="Line">
-                    <label htmlFor="">003</label>
-                    <label htmlFor="">Godzilla Mode</label>
+                    <div style={{width: "50%", display: "flex", justifyContent: "space-between"}}>
+                        <label htmlFor="">003</label>
+                        <a href="">Godzilla Mode</a>
+                    </div>
                 </div>
                 <div className="Line">
-                    <label htmlFor="">004</label>
-                    <label htmlFor="">Contacts Us</label>
+                    <div style={{width: "50%", display: "flex", justifyContent: "space-between"}}>
+                        <label style={{background: "blue"}} htmlFor="">004</label>
+                        <div style={{textAlign:"left", background: "red"}}>
+                            <a  href="">Contacts Us</a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
