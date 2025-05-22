@@ -1,0 +1,18 @@
+.Contenedor-Header{
+    width: 780px;
+    height: 100%;
+    background: red;
+    border-radius: 100vmax;
+    transform: translateY(-71%);
+    margin: 0 auto;
+}
+
+
+
+.Contenedor-Header img{
+    position: relative;
+    top: 570px;
+    left: 120px;
+    width: 48%;
+}
+
